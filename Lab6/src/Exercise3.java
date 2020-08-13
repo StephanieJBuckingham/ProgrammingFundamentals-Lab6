@@ -1,4 +1,6 @@
-/*Find the time complexity of the following java method
+/* Exercise 3
+ * 
+ * Find the time complexity of the following java method
 */
 
 	/*	int bar(int N) {
@@ -15,6 +17,7 @@
  * 
  * line 4 - c1(constant)
  * line 5 - log(n)
+ **Note- since i is multiplied by two each iteration the variable i grows logarithmically (base 2)
  * line 7 - c2(constant)
  * line 9 - c3(constant)
  * 

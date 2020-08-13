@@ -1,5 +1,22 @@
-class BinarySearch {
+/* Exercise 4- Binary Search
+ * 
+ * Trace through each iteration of the algorithm, writing the number that will be the middle
+ * element and the left and right bounds (indexes), when searching for the number 73.
+ * 
+ * Each step of the iteration is produced by finding the middle element.  If the target
+ * is the middle element then stop. If it is not, determine if  the target element is 
+ * larger or smaller than the middle element.  If it is less, the indexes to the left 
+ * become the new subarray. If the target is higher than the middle element, than then 
+ * the indexes to the right become the new subarray.  A new middle value is found in 
+ * the subarray and the process is repeated until the target is found or determined not
+ * to be in the array. 
+ * 
+ * The specific steps for the array below are produced by the code in this program. 
+ * int arr[] = { 1, 14, 15, 24, 55, 59, 73, 90, 94, 99 }
+*/
 
+class BinarySearch {
+	
 	int binarySearch(int arr[], int l, int r, int x) {
 		
 		// initialize counter for iteration

@@ -1,6 +1,8 @@
-/* Write the simplest Java method that would 
+/* Exercise 1
+ * 
+ * Write the simplest Java method that would 
  * have 𝑂(𝑁^3) time complexity, where 𝑁 is the
- *  single input parameter to the method.  */
+ * single input parameter to the method.  */
 
 public class CubicTimeComplexity {
 
