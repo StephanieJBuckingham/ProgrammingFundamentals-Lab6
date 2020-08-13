@@ -14,10 +14,10 @@
  * Big O Notation you need to pick the fastest growing term. 
  * 
  * line 4 - c1(constant)
- * line 5 - n/2 -1
+ * line 5 - log(n)
  * line 7 - c2(constant)
- * line 9- c3(constant)
+ * line 9 - c3(constant)
  * 
- * Time Complexity = c1 + n/2 + c2 + c3
- * Big O Notation = O(n)
+ * Time Complexity = c1 + log(n) + c2 + c3
+ * Big O Notation = O(log(n))
  */
