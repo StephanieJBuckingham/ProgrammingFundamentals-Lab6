@@ -18,6 +18,6 @@
  * line 7 - c2(constant)
  * line 9 - c3(constant)
  * 
- * Time Complexity = c1 + log(n) + c2 + c3
+ * Time Complexity = c1 + log2(n) + c2 + c3
  * Big O Notation = O(log(n))
  */
