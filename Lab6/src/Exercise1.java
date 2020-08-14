@@ -4,7 +4,7 @@
  * have 𝑂(𝑁^3) time complexity, where 𝑁 is the
  * single input parameter to the method.  */
 
-public class CubicTimeComplexity {
+public class Exercise1 {
 
 	public static void main(String[] args) {
 

@@ -15,12 +15,11 @@
  * complexity for each line of the code. To determine the
  * Big O Notation you need to pick the fastest growing term. 
  * 
- * line 4 - c1(constant)
- * line 5 - log(n)
+ * line 7 - c1(constant)
+ * line 8 & 9 - log(n)
  **Note- since i is multiplied by two each iteration the variable i grows logarithmically (base 2)
- * line 7 - c2(constant)
- * line 9 - c3(constant)
+ * line 10 - c2(constant)
  * 
- * Time Complexity = c1 + log2(n) + c2 + c3
+ * Time Complexity = c1 + log2(n) + c2
  * Big O Notation = O(log(n))
  */

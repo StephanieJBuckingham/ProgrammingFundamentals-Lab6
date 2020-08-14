@@ -27,7 +27,7 @@ class BinarySearch {
 			int mid = l + (r - l) / 2;
 
 			// print out middle element in each iteration
-			System.out.println("Step " + count++ + " number " + arr[mid] + " is the middle.");
+			System.out.println("Number " + arr[mid] + " is the middle.");
 
 			// print out left and right bonds
 			System.out.println("The left bonds is " + l + " and the right bonds is " + r);
